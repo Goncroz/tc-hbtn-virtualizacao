@@ -30,3 +30,38 @@ servidor suportar três máquinas virtuais dos mesmos tipos apresentados no arti
 - O Hardware apresentado precisaria de um upgrade para a virtualização, pois conforme a necessidade conseguiria adequar o hardware para realizar 
 uma boa performance segundo as funcionalidades. Precisaria também de um hardware atualizado e que se adeque ao tamanho da memoria RAM e do 
 disco rígido. 
+
+
+____________________________________________________________________________________________________________________________________________________________________
+
+habilitar hyper-V no Windows Server 2008
+Server Manager
+Clicar em Start
+Administrative Toolss
+Clicar em Server Manager
+Add Roles
+selecionar a opÃ§Ã£o Hyper-V em Roles
+selecionar uma placa de rede para a rede virtual
+reiniciar o servidor 
+Criar a mÃ¡quina virtual de exemplo
+Acessar Server Manager
+Roles
+Hyper-V
+Hyper-V Manager
+Acessar o menu Action - New - Virtual Machine - Wizard
+Especificar o nome da VM
+Atribuir a quantidade  de memÃ³ria RAM
+selecionar o adaptador de rede virtual
+conectar um disco
+escolher criar um disco virtual
+escolher usar um disco existente
+realizar a configuraÃ§Ã£o do sistema operacional
+clicar com botÃ£o direito na Vm
+clicar em Settings
+IDE Controller 1, selecione a imagem do Sistema Operacional
+Clicar em conectar a VM
+Ligar a VM
+instalar o sistema operacional
+hypervisor do tipo 2
+Este tipo de arquitetura necessita do sistema operacional para que sejam executadas as mÃ¡quinas virtuais
+Sistema operacional Ã© o host
