@@ -28,7 +28,7 @@ Realize uma nova pesquisa para configuração do Servidor Físico, levando em co
 servidor suportar três máquinas virtuais dos mesmos tipos apresentados no artigo:
 
 - O Hardware apresentado precisaria de um upgrade para a virtualização, pois conforme a necessidade conseguiria adequar o hardware para realizar 
-uma boa performance segundo as funcionalidades. Precisaria também de um hardware atualizado e que se adeque ao tamanho da memoria RAM e do 
+uma boa performance segundo as funcionalidades. Precisaria também de um hardware atualizado e que se adeque ao tamanho da memória RAM e do 
 disco rígido. 
 
 
